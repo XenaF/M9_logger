@@ -22,7 +22,7 @@ const BagPage = require('../utils/page_objects/home_page/bag_page');
         await filter.filterSizeValues.clickElementByText('3');
         await allWomenBootsPage.wait(10000);
         await filter.filterColorMenu.clickElementByText('COLOR');
-        await filter.filterColorValues.clickElementByText('Black');;
+        await filter.filterColorValues.clickElementByText('Black');
         let filterResult = new Filter();
         expect(filterResult.getText()).toEqual('Black', '3');
     });

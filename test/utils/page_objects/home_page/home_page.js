@@ -18,7 +18,6 @@ class HomePage extends BasePage {
     }
     
     async getTitle(element) {
-        // logger.info(`Title is verified`);
         const homeTitle = await super.getTitle();
         return homeTitle;
      }
