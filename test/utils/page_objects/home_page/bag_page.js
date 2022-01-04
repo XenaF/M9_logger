@@ -10,7 +10,6 @@ class BagPage extends BasePage {
     };
 
     async getTitle(element) {
-        // logger.info(`Title is verified`);
         const pageTitle = await super.getTitle();
         return pageTitle;
      }   

@@ -10,7 +10,6 @@ class Filter extends Collection {
     };
     
     async getText() {
-       // logger.info(`Texts of collection's elements are [${arrayOfCollectionTexts}]`);
         let filterText = await super.getText();
         return filterText;
 }
